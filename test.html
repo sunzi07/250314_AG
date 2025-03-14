@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파란색 테마의 아름다운 페이지</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #4a90e2, #3567d2);
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #2c3e50;
+            padding: 60px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #ecf0f1;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #bdc3c7;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fff;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #fff;
+            color: #333;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #3498db;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #7f8c8d;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .footer-link {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-link:hover {
+            color: #ecf0f1;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>파란색 테마의 웹 페이지</h1>
+    <p>우리는 창의적이고, 혁신적인 아이디어를 제공합니다.</p>
+</header>
+
+<section>
+    <h2>우리가 제공하는 서비스</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="서비스 이미지 1">
+            <h3>디자인 서비스</h3>
+            <p>세련된 디자인으로 웹사이트와 앱을 혁신적으로 변화시킵니다.</p>
+            <a href="#" class="btn">자세히 보기</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="서비스 이미지 2">
+            <h3>개발 서비스
